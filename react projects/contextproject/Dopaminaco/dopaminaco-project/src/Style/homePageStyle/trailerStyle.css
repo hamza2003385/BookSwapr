@@ -1,0 +1,15 @@
+.TrailerIframe{
+    position: absolute;
+    top : 9vh;
+    left : 19vw;
+    z-index: -9999;
+    width:90vw;
+    height: 0vh;
+    padding: 0;
+    border-radius: 8px;
+
+}
+.trailer{
+    border-radius: 16px;
+    border: none;
+}

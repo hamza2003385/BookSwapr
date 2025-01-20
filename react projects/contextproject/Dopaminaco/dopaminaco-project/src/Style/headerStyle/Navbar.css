@@ -1,0 +1,25 @@
+.navBarHome{
+    display: flex;
+    position: absolute;
+    top:0.5dvh;
+    left:16%;
+}
+
+.navBarLinks{
+    display: flex;
+    list-style-type: none;
+    margin-right: .66em;
+}
+.navBarLinks .link{
+    text-decoration: none;
+    display: flex;
+    color: rgb(97, 97, 97);
+    margin-right: .33em;
+
+}
+.link-{
+    text-decoration: none;
+    display: flex;
+    color: rgb(97, 97, 97);
+    padding: 0 1em;
+}

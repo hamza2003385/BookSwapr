@@ -1,0 +1,125 @@
+.MoviePopularContainer{
+    position: absolute;
+    top:10vh;
+    left:16vw;
+    margin: 0 1.66em  1.66em 0;
+    width: 60vw;
+    box-sizing: border-box;
+}
+.CartMoviePopular{
+    width: 60vw;
+    height: auto;
+    padding: .33em;
+    display: flex;
+    flex-direction: column;
+}
+.CartCover{
+    width:60vw;
+    border-radius: 16px;
+   
+}
+.genreContainer{
+    position: relative;
+    top:4%;
+    display: flex;
+    padding: .2em;
+    margin-right: .33em;
+}
+.genreContainer .genreBtn{
+    width: auto;
+    padding: .33em 1em;
+    margin: .33em;
+    background: rgba(255, 255, 255, 0.409);
+    backdrop-filter: brightness(0.9) blur(4px);
+    -webkit-backdrop-filter: brightness(0.9) blur(4px);
+    border: 1px solid white;
+    border-radius: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color:whitesmoke;
+    
+}
+.RateMoviePopular{
+        position: absolute;
+        top: 8%; /* Distance depuis le haut */
+        left: 92%; /* Distance depuis la gauche */
+        background-color: #fff; /* Couleur de fond blanche */
+        text-align: center; /* Alignement centré */
+        width: 45px; /* Largeur */
+        height: 45px; /* Hauteur */
+        border-radius: 12px; /* Coins arrondis */
+        font-size: 14px; /* Taille de police */
+        padding: 4px; /* Espacement interne */
+        color: #333; /* Couleur du texte */
+         /* Ombre portée pour un effet de profondeur */
+     /* Bordure légère */
+       height: 18px; /* Indicateur de clic */
+        display: flex; /* Utilisé pour centrer le contenu verticalement et horizontalement */
+        align-items: center; /* Centre verticalement */
+        justify-content: center; /* Centre horizontalement */
+        z-index: 10; /* Assure que l'élément est au-dessus des autres */
+        transition: all 0.3s ease; /* Animation pour interactions */
+    }
+    
+    .positioned-element:hover {
+        background-color: #f0f0f0; /* Changement de couleur au survol */
+        transform: scale(1.1); /* Légère mise en relief */
+        box-shadow: 0px 6px 10px
+    
+}
+.titleContainer{
+    color:white;
+    margin: 0em 0 0 0.66em;
+    font-size: 18pt;
+}
+.titlePopular{
+    margin-bottom:0 ;
+    padding-bottom: 0;
+}
+.description{
+    color:rgb(199, 199, 199);
+    filter: brightness(1.3);
+    width: 65%;
+    font-size: 10pt;
+    margin-left: 1em;
+}
+.WatchDetails{
+display: flex;
+justify-content: start;
+padding: .33em;
+margin: 0.5em;
+}
+.WatchDetails .btn-watchContainer{
+margin-right: .66em;
+}
+.btn-watch{
+    width:100px;
+    border:none;
+    color:white;
+    background-color: #8B5DFF;
+    padding: .33em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* .btn-FavoriteContainer{
+
+
+} */
+.btn-favorite{
+        border-radius: 50%; /* Forme circulaire */
+        background: rgba(255, 255, 255, 0.3); /* Fond semi-transparent */
+        backdrop-filter: brightness(0.9) blur(4px); /* Effet de luminosité et de flou */
+        -webkit-backdrop-filter: brightness(0.9) blur(9px); /* Compatibilité avec Safari */
+        width: 30px; /* Largeur de l'élément */
+        height: 30px; /* Hauteur de l'élément */
+        color: white; /* Couleur du texte */ /* Espacement interne */
+        border: 1px solid white; /* Bordure blanche */
+        font-size: 20pt; /* Taille de la police */
+        text-align: center;
+        display: inline-flex; 
+        font-weight: 300;
+        align-items: center;/* Alignement du texte */
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        cursor: pointer; /* Ombre légère */
+    }
+    
+    

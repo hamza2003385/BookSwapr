@@ -22,6 +22,7 @@ function App() {
         <Route path="/home/New/trendingMoviesList" element={<SeeAllMoviesFunc  pathname={"trending"}/>}/>
         <Route path="/home/tvShows"/>
         <Route path="/home/Animes"/>
+        <Route path="/home/Documentaries" element={}/> 
         {/* <Route path = "/" element ={<DailymotionVideos  movieTitle ="siyah kalp"/>}/> */}
         {/* specific serie  */}
         <Route path="/home/Series/:id" element={<SerieDetails />}/>

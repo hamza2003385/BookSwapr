@@ -31,7 +31,7 @@ function FetchEpisodes({ seasonNumber, id, seriesTitle }) {
             video.title.toLowerCase().includes(episode.name.toLowerCase()) ||
             video.title.toLowerCase().includes(`episode ${episode.episode_number}`.toLowerCase())
           );
-          return {
+          return {  
             ...episode,
             videos: matchingVideos.length > 0 ? matchingVideos : [], // Assign matching videos or empty array
           };

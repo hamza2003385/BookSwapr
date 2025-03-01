@@ -84,7 +84,7 @@ function MoviePopular() {
                                                 <FaPlay /> watch
                                             </button>
                                         </div>
-                                        <div className="btn-FavoriteContainer">
+                                        <div className="btn-FavoriteContainers">
                                             <button className="btn-favorite">
                                                 <FaRegHeart />
                                             </button>

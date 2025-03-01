@@ -71,7 +71,9 @@ function Home() {
             try {
                 const response = await axios.get(
                     `https://api.themoviedb.org/3/movie/upcoming?api_key=${API_KEY}&page=1`
+                
                 );
+                response.status(200)
                 setComingSoonMovies(response.data.results);
             } catch (error) {
                 console.error("Error fetching coming soon movies:", error);
